@@ -1,8 +1,16 @@
 @charset "UTF-8";
+/*Estilo de letra*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,500;1,600&display=swap");
 /*Paleta de colores*/
 /*Tamaños de letra*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
 .header__title {
-  font-size: 2em; }
+  font-size: 1.3em; }
 .header__profile {
   background-color: #7CE6E2; }
   .header__profile--name {
@@ -10,7 +18,17 @@
   .header__profile--text {
     font-size: 1.3em; }
   .header__profile--button {
-    background-color: azure;
-    text-decoration: none; }
+    background-color: #FFA575;
+    border: none; }
+  .header__profile--button:hover {
+    background-color: #E38552; }
+  .header__profile img {
+    width: 100%; }
+
+hr {
+  position: relative;
+  top: 16px;
+  right: 100px;
+  margin: 0px 420px; }
 
 /*# sourceMappingURL=style.css.map */
