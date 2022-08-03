@@ -1,0 +1,32 @@
+/*Paleta de colores*/
+$colorUno: #994D25;
+$colorDos: #FFA575;
+$colorTres: #E38552;
+$colorCuatro: #189692;
+$colorCinco: #7CE6E2;
+
+/*Tamaños de letra*/
+$titulos: 2em;
+$subtitulos: 1.5em;
+$textos: 1.3em;
+$subtextos: 0.5em;
+
+
+.header {
+    &__title{
+        font-size: $titulos;
+    }
+    &__profile{
+        background-color: $colorCinco;
+        &--name{
+            font-size: $titulos;
+        }
+        &--text{
+            font-size: $textos;
+        }
+        &--button{
+            background-color: azure;
+            text-decoration: none;
+        }
+    }
+}

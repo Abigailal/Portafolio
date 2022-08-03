@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*Paleta de colores*/
+/*Tamaños de letra*/
+.header__title {
+  font-size: 2em; }
+.header__profile {
+  background-color: #7CE6E2; }
+  .header__profile--name {
+    font-size: 2em; }
+  .header__profile--text {
+    font-size: 1.3em; }
+  .header__profile--button {
+    background-color: azure;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
