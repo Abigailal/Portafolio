@@ -8,6 +8,9 @@ $colorTres: #E38552;
 $colorCuatro: #189692;
 $colorCinco: #7CE6E2;
 $white: white;
+$bootstrap:#6e3ff3;
+$html:#ff3e20;
+$javas:#f5d961;
 
 /*Tamaños de letra*/
 $titulos: 2em;
@@ -58,6 +61,9 @@ body{
 #proyects{
     .card{
         background-color: $colorDos;
+        .bg-purple{ background-color: $bootstrap;}
+        .bg-orange {background-color: $html;}
+        .bg-yellow {background-color: $javas;}
         &__button{
             &--deploy{
                 background-image: url('../assets/deploy.png');

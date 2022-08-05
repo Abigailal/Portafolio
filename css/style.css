@@ -34,6 +34,12 @@ body {
 
 #proyects .card {
   background-color: #FFA575; }
+  #proyects .card .bg-purple {
+    background-color: #6e3ff3; }
+  #proyects .card .bg-orange {
+    background-color: #ff3e20; }
+  #proyects .card .bg-yellow {
+    background-color: #f5d961; }
   #proyects .card__button--deploy {
     background-image: url("../assets/deploy.png");
     background-position: center;
