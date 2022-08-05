@@ -43,14 +43,38 @@ body {
   #proyects .card__button--deploy {
     background-image: url("../assets/deploy.png");
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 40px;
     width: 40px; }
   #proyects .card__button--repo {
     background-image: url("../assets/git.png");
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px; }
+
+.footer {
+  background-color: #7CE6E2; }
+  .footer__button--repo {
+    background-image: url("../assets/git.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 45px; }
+  .footer__button--platzi {
+    background-image: url("../assets/platzi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px; }
+  .footer__button--mail {
+    background-image: url("../assets/mail.png");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 40px;
     width: 40px; }

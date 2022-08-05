@@ -68,7 +68,7 @@ body{
             &--deploy{
                 background-image: url('../assets/deploy.png');
                 background-position: center;
-                background-repeat: none;
+                background-repeat: no-repeat;
                 background-size: cover;
                 height: 40px;
                 width: 40px;
@@ -76,11 +76,41 @@ body{
             &--repo{
                 background-image: url('../assets/git.png');
                 background-position: center;
-                background-repeat: none;
+                background-repeat: no-repeat;
                 background-size: cover;
                 height: 40px;
                 width: 40px;
             }
+        }
+    }
+}
+
+.footer {
+    background-color:  $colorCinco;
+    &__button{
+        &--repo{
+            background-image: url('../assets/git.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 45px;
+            width: 45px;
+        }
+        &--platzi{
+            background-image: url('../assets/platzi.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40px;
+            width: 40px;
+        }
+        &--mail{
+            background-image: url('../assets/mail.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40px;
+            width: 40px;
         }
     }
 }
