@@ -58,6 +58,21 @@ body{
     }
 }
 
+.main{
+    &__title{color: $white;}
+    &__linebor{
+        color: $white;
+        border: 2px solid white;
+    }
+
+}
+#skill{
+    .skill__container{
+        &--title{
+            color: $white;
+        }
+    }
+}
 #proyects{
     .card{
         background-color: $colorDos;
@@ -66,7 +81,7 @@ body{
         .bg-yellow {background-color: $javas;}
         &__button{
             &--deploy{
-                background-image: url('../assets/deploy.png');
+                background-image: url('../assets/icons/deploy.png');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -74,7 +89,7 @@ body{
                 width: 40px;
             }
             &--repo{
-                background-image: url('../assets/git.png');
+                background-image: url('../assets/icons/git.png');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -89,7 +104,7 @@ body{
     background-color:  $colorCinco;
     &__button{
         &--repo{
-            background-image: url('../assets/git.png');
+            background-image: url('../assets/icons/git.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -97,7 +112,7 @@ body{
             width: 45px;
         }
         &--platzi{
-            background-image: url('../assets/platzi.png');
+            background-image: url('../assets/icons/platzi.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -105,7 +120,7 @@ body{
             width: 40px;
         }
         &--mail{
-            background-image: url('../assets/mail.png');
+            background-image: url('../assets/icons/mail.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;

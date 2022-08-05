@@ -32,6 +32,15 @@ body {
     .header__profile figure img {
       width: 100%; }
 
+.main__title {
+  color: white; }
+.main__linebor {
+  color: white;
+  border: 2px solid white; }
+
+#skill .skill__container--title {
+  color: white; }
+
 #proyects .card {
   background-color: #FFA575; }
   #proyects .card .bg-purple {
@@ -41,14 +50,14 @@ body {
   #proyects .card .bg-yellow {
     background-color: #f5d961; }
   #proyects .card__button--deploy {
-    background-image: url("../assets/deploy.png");
+    background-image: url("../assets/icons/deploy.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 40px;
     width: 40px; }
   #proyects .card__button--repo {
-    background-image: url("../assets/git.png");
+    background-image: url("../assets/icons/git.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,21 +67,21 @@ body {
 .footer {
   background-color: #7CE6E2; }
   .footer__button--repo {
-    background-image: url("../assets/git.png");
+    background-image: url("../assets/icons/git.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45px;
     width: 45px; }
   .footer__button--platzi {
-    background-image: url("../assets/platzi.png");
+    background-image: url("../assets/icons/platzi.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 40px;
     width: 40px; }
   .footer__button--mail {
-    background-image: url("../assets/mail.png");
+    background-image: url("../assets/icons/mail.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
