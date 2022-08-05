@@ -9,10 +9,15 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif; }
 
+body {
+  background-color: #189692; }
+
 .header__title {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  color: white; }
 .header__profile {
-  background-color: #7CE6E2; }
+  background-color: #7CE6E2;
+  border-radius: 0px 100px; }
   .header__profile--name {
     font-size: 2em; }
   .header__profile--text {
@@ -22,7 +27,26 @@
     border: none; }
   .header__profile--button:hover {
     background-color: #E38552; }
-  .header__profile img {
-    width: 100%; }
+  .header__profile figure {
+    width: 50%; }
+    .header__profile figure img {
+      width: 100%; }
+
+#proyects .card {
+  background-color: #FFA575; }
+  #proyects .card__button--deploy {
+    background-image: url("../assets/deploy.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 40px;
+    width: 40px; }
+  #proyects .card__button--repo {
+    background-image: url("../assets/git.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 40px;
+    width: 40px; }
 
 /*# sourceMappingURL=style.css.map */

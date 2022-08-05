@@ -7,6 +7,7 @@ $colorDos: #FFA575;
 $colorTres: #E38552;
 $colorCuatro: #189692;
 $colorCinco: #7CE6E2;
+$white: white;
 
 /*Tamaños de letra*/
 $titulos: 2em;
@@ -20,13 +21,18 @@ $subtextos: 0.5em;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    background-color:$colorCuatro;
+}
 
 .header {
     &__title{
         font-size: $textos;
+        color:$white;
     }
     &__profile{
         background-color: $colorCinco;
+        border-radius: 0px 100px;
         &--name{
             font-size: $titulos;
         }
@@ -40,8 +46,35 @@ $subtextos: 0.5em;
         &--button:hover {
             background-color: $colorTres;
         }
-        img {
-            width: 100%;
+        figure{
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#proyects{
+    .card{
+        background-color: $colorDos;
+        &__button{
+            &--deploy{
+                background-image: url('../assets/deploy.png');
+                background-position: center;
+                background-repeat: none;
+                background-size: cover;
+                height: 40px;
+                width: 40px;
+            }
+            &--repo{
+                background-image: url('../assets/git.png');
+                background-position: center;
+                background-repeat: none;
+                background-size: cover;
+                height: 40px;
+                width: 40px;
+            }
         }
     }
 }
