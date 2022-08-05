@@ -65,7 +65,7 @@ body {
     width: 40px; }
 
 .footer {
-  background-color: #7CE6E2; }
+  background: linear-gradient(180deg, #189692, #7CE6E2); }
   .footer__button--repo {
     background-image: url("../assets/icons/git.png");
     background-position: center;
@@ -87,5 +87,14 @@ body {
     background-size: cover;
     height: 40px;
     width: 40px; }
+
+#loader_ctn {
+  background: #189692;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */

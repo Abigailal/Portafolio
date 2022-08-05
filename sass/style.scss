@@ -101,7 +101,7 @@ body{
 }
 
 .footer {
-    background-color:  $colorCinco;
+    background: linear-gradient( 180deg, $colorCuatro, $colorCinco );
     &__button{
         &--repo{
             background-image: url('../assets/icons/git.png');
@@ -128,4 +128,14 @@ body{
             width: 40px;
         }
     }
+}
+
+#loader_ctn {
+    background: $colorCuatro;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
